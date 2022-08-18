@@ -1,0 +1,311 @@
+/* GENERAL PRESETS */
+
+main section {
+  background-color: green;
+}
+
+.col-6 {
+  margin: 0px 2px;
+  padding: 0;
+  width: 49.6%;
+}
+.col-12 {
+  margin: 5px 2px 0px 2px;
+  padding: 0;
+}
+
+.sea-of-thieves, 
+.design-lab, 
+.nba-2k23, 
+.naraka-bladepoint {
+  height: 920px
+}
+
+.fifa-23, 
+.game-pass, 
+.tribes-of-midgard, 
+.cloud-gaming {
+  height: 426px;
+}
+
+.next-gen, .gear-shop {
+  margin-left: 4px;
+  margin-bottom: 0;
+  width: 99.4%;
+}
+
+.sea-of-thieves-info, 
+.design-lab-info, 
+.nba-2k23-info, 
+.naraka-bladepoint-info {
+  position: absolute;
+  left: 50px;
+  bottom: 75px;
+}
+
+.sea-of-thieves-info a,
+.game-pass-info a,
+.design-lab a,
+.fifa-23-info a,
+.tribes-of-midgard-info a,
+.cloud-gaming-info a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color .2s ease-in-out;
+  -webkit-transition: border-color .2s ease-in-out;
+  -moz-transition: border-color .2s ease-in-out;
+  padding-bottom: 3px;
+}
+
+.sea-of-thieves-info a:hover,
+.game-pass-info a:hover,
+.design-lab a:hover,
+.fifa-23-info a:hover,
+.tribes-of-midgard-info a:hover,
+.cloud-gaming-info a:hover {
+  color: #9BF00B;
+  border-bottom: 2px solid #9BF00B;
+  padding-bottom: 3px;
+}
+
+.next-gen-info a, 
+.nba-2k23-info a, 
+.naraka-bladepoint-info a,
+.gear-shop-info a {
+  background-color: #9BF00B;
+  color: #054B16;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-bottom: 2px solid transparent;
+  transition: border-color .2s ease-in-out;
+  -webkit-transition: border-color .2s ease-in-out;
+  -moz-transition: border-color .2s ease-in-out;
+  padding-bottom: 3px;
+}
+
+.next-gen-info a:hover, 
+.nba-2k23-info a:hover, 
+.naraka-bladepoint-info a:hover,
+.gear-shop-info a:hover {
+  background-color: #8BD80A;
+  border-bottom: 2px solid #107C10 ;
+  padding-bottom: 3px;
+}
+
+/* /GENERAL PRESETS */
+
+
+/* SEA OF THIEVES */
+
+.sea-of-thieves {
+  background-image: url(/img/sea-of-thieves.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+  padding-left: 45px;
+  position: relative;
+}
+
+.sea-of-thieves-info span {
+  background-color: #FFD800;
+  color: #000000;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+}
+
+/* /SEA OF THIEVES */
+
+
+/* GAME PASS */
+
+.game-pass-image {
+  background-image: url(/img/gamespass.jpg);
+  background-size: cover;
+  color: #FFFFFF;
+  padding-left: 45px;
+  position: relative;
+}
+
+.game-pass-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 55px;
+  color: #FFFFFF;
+}
+
+.game-pass-info p {
+  font-size: 19px;
+}
+
+/* /GAME PASS */
+
+
+/* FIFA 23 */
+
+.fifa-23-image {
+  background-image: url(/img/fifa-23.jpg);
+  background-size: cover;
+  color: #FFFFFF;
+  padding-left: 45px;
+}
+
+.fifa-23-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 55px;
+  color: #FFFFFF;
+}
+/* /FIFA 23 */
+
+
+/* DESIGN LAB */
+
+.design-lab {
+  background-image: url(/img/xbox-lab.jpg);
+  background-size: cover;
+  color: #FFFFFF;
+  padding-left: 45px;
+  position: relative;
+}
+/* /DESIGN LAB */
+
+
+/* NEXT GEN */
+
+.next-gen {
+  background-image: url(/img/next-gen.jpg);
+  background-size: cover;
+  color: #000000;
+  padding-left: 45px;
+  position: relative;
+  height: 72vh;
+}
+
+.next-gen-info {
+  position: absolute;
+  top: 200px;
+  left: 178px;
+}
+
+/* /NEXT GEN */
+
+
+/* TRIBES OF MIDGARD */
+
+.tribes-of-midgard-image {
+  background-image: url(/img/tribes-of-midgard.jpg);
+  background-size: cover;
+  color: #FFFFFF;
+  padding-left: 45px;
+  position: relative;
+}
+
+.tribes-of-midgard-info, .cloud-gaming-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 55px;
+  color: #FFFFFF;
+}
+/* /TRIBES OF MIDGARD */
+
+
+/* NBA 2K23 */
+
+.nba-2k23 {
+  background-image: url(/img/nba-2k23.jpg);
+  background-size: cover;
+  color: #000000;
+  padding-left: 45px;
+  position: relative;
+}
+
+.nba-2k23-info h1, .naraka-bladepoint h1 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+/* /NBA 2K23 */
+
+
+/* NARAKA BLADEPOINT */
+
+.naraka-bladepoint {
+  background-image: url(/img/naraka-bladepoint.jpg);
+  background-size: cover;
+  color: #000000;
+  padding-left: 45px;
+  position: relative;
+}
+/* /NARAKA BLADEPOINT */
+
+
+/* CLOUD GAMING */
+
+.cloud-gaming-image {
+  background-image: url(/img/cloud-gaming.jpg);
+  color: #000000;
+  background-size: cover;
+  padding-left: 45px;
+  position: relative;
+}
+
+/* /CLOUD GAMING */
+
+
+/* GEAR SHOP */
+
+.gear-shop {
+  background-image: url(/img/gear-shop.jpg);
+  background-size: cover;
+  color: #000000;
+  padding-left: 45px;
+  position: relative;
+  height: 72vh;
+}
+
+.gear-shop-info {
+  position: absolute;
+  top: 260px;
+  right: 138px;
+}
+/* /GEAR SHOP */
+
+
+/* SOCIAL MEDIA */
+
+.social-media {
+  padding: 0 146px;
+  background-color: white;
+  border: none;
+}
+
+.social-media span {
+  color: #747474;
+}
+
+.social-media a{
+  margin: 0 12px;
+  color: black;
+  width: 30px;
+  transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+}
+
+.social-media a:hover{
+color: #107C10;
+}
+
+.social-media i{
+  font-size: 23px;
+}
+
+/* /SOCIAL MEDIA */

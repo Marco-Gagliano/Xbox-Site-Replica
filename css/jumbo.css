@@ -1,0 +1,59 @@
+
+/* JUMBO-IMAGE */
+
+.jumbo-image {
+  width: 100%;
+}
+
+.carousel-item a {
+  background-color: #9BF00B;
+  color: #054B16;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-bottom: 2px solid transparent;
+  transition: border-color .2s ease-in-out;
+  -webkit-transition: border-color .2s ease-in-out;
+  -moz-transition: border-color .2s ease-in-out;
+}
+
+.carousel-item a:hover {
+  background-color: #8BD80A;
+  border-bottom: 2px solid #054B16;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+}
+
+/* /JUMBO-IMAGE */
+
+
+/* JUMBO-INFO */
+
+.jumbo-info img {
+  width: 72px;
+  margin: 0 45px;
+}
+
+.jumbo-info div {
+  text-align: center;
+}
+
+.jumbo-info a p span {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #107C10;
+  border-bottom: 3px solid transparent;
+  transition: border-color .2s ease-in-out;
+  -webkit-transition: border-color .2s ease-in-out;
+  -moz-transition: border-color .2s ease-in-out;
+  margin: 0;
+}
+
+.jumbo-info a:hover p span{
+  border-bottom: 3px solid #107C10;
+}
+
+/* /JUMBO-INFO */

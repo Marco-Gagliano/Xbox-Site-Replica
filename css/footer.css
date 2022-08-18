@@ -1,0 +1,47 @@
+/* GENERAL PRESETS */
+
+footer {
+  background-color: #F2F2F2;
+  color: #616161;
+  padding: 0 151px;
+  font-size: 11px;
+}
+
+footer h6, footer a {
+  color: #616161;
+}
+
+
+footer a:hover {
+  color: #242424;
+}
+
+/* /GENERAL PRESETS */
+
+
+/* CONTACT */
+
+.footer-contact section {
+  padding-right: 163px;
+}
+
+.footer-contact section h6 {
+  text-transform: capitalize;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.footer-contact li {
+  padding: 8px 0;
+}
+
+/* /CONTACT */
+
+
+/* INFORMATION */
+
+.information li {
+  padding: 10px 27px 10px 0px ;
+}
+
+/* /INFORMATION */

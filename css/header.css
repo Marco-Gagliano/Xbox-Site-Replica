@@ -1,0 +1,65 @@
+/* GENERAL PRESETS */
+
+header {
+  height: 58px;
+  padding: 0 161px;
+}
+
+/* /GENERAL PRESETS */
+
+
+/* MICROSOFT/XBOX LOGO */
+
+.ms-logo {
+  width: 50%;
+}
+
+.xbox-logo {
+  width: 20%;
+}
+
+/* /MICROSOFT/XBOX LOGO */
+
+
+/* NAVBAR MENU */
+
+.navbar-nav {
+  margin-top: 7px;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #107C10;
+}
+
+.nav-item a {
+  color: #000000;
+}
+
+.list span {
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+  padding-top: 10px;
+  border: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #107C10;
+}
+
+.dropdown-menu span:hover {
+  background-color: transparent
+}
+
+.games {
+  padding: 20px 50px;
+}
+
+/* /NAVBAR MENU */
+
